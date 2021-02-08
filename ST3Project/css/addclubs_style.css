@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo:700|Montserrat|Oswald|PT+Sans&display=swap');
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(118, 154, 164);
+    color: white;
+}
+
+.container{
+    width: 600px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    /* border: 2px solid white; */
+}
+
+.container h2{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    
+}
+.row{
+    display: flex;
+    /* border: 2px solid yellowgreen;  */
+    align-content: flex-start;
+    padding: 16px 5px;
+    border-top: 1.5px solid white;
+    padding: 1.5rem 0 1.5rem 0;
+}
+
+.row label{
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    margin-right: 20px;
+    /* border: 1px solid red; */
+    width: 35%;
+    align-content: flex-start;
+    text-align: left;
+    border-right: 1px solid white;
+}
+
+.row input, .row textarea{
+    width: 60%;
+    background: none;
+    outline: none;
+    padding: 0%;
+    border: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+/* .row textarea{
+    border-bottom: 1.5px solid white;
+} */
+.btn{
+    background: none;
+    padding: 16px;
+    font-size: 24px;
+    outline: none;
+    border: none;
+    color: white;
+    display: flex
+}
+.btn i{
+    margin-left: 0.5rem;
+}
+.btn:hover{
+    cursor: pointer;
+}
